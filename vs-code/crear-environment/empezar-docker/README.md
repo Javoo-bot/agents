@@ -42,9 +42,9 @@ Los comandos para arrancar la creación de los contenedores
 Y para empezar los contenedores
 
 ```powershell
-docker compose -f docker-compose.yml -f docker-compose.local.yml up -d
+docker-compose -f docker-compose.yml up -d
 ```
 
 ```bash
-sudo docker-compose -f docker-compose.yml -f docker-compose.local.yml up -d
+sudo docker-compose -f docker-compose.yml up -d
 ```
