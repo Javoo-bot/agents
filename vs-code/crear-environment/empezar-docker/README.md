@@ -10,7 +10,11 @@ docker compose -f docker-compose.yml -f docker-compose.local.yml up
 Me va a salir "error login" porque el backend y el frontend se crean manualmente no descarga la imagen.&#x20;
 {% endhint %}
 
-El primer comando es crear la imagen de traefik:
+El primer comando es crear la red de traefik y luego la imagen:
+
+{% hint style="warning" %}
+docker network create traefik-public
+{% endhint %}
 
 ```
 docker compose -f docker-compose.traefik.yml up -d
