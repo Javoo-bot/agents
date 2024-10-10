@@ -23,7 +23,7 @@ docker compose -f docker-compose.traefik.yml up -d
 Compruebo que ya tengo la imagen de traefik creada:
 
 ```
-docker image ps
+docker image ls
 ```
 
 Inicio el backend:
