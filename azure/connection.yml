@@ -1,6 +1,0 @@
-
-name: Phi-3-mini-128k-instruct-connection
-type: serverless
-endpoint: https://testeo2.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-08-01-preview
-api_key: ${API_KEY?Variable API_KEY not set}
-    
