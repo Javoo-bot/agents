@@ -1,5 +1,5 @@
 # Ignorar el archivo connections.yml
-connections.yml
+connection.yml
 
 # Ignorar el archivo .env
 .env
