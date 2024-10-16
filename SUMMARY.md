@@ -3,7 +3,7 @@
 ## Guia
 
 * [Agents](README.md)
-  * [🛠️ Docker config](inicio/setting/docker-config.md)
+  * [🛠️ Docker config](inicio/docker-config.md)
 
 ## VS Code
 
