@@ -30,7 +30,7 @@ Al crear la clase es más fácil reutilizar el código en el futuro.&#x20;
 
 &#x20;Esta clase S3 hace dos cosas:
 
-* Se conecta al bucket S3 usando las claves que me dio el administrador (César)
+* Se conecta al bucket S3 usando las claves que me dio el administrador 
 * Coge el archivo y no lo descarga porque tarda mucho! Entonces lo almacena en buffer (memoria temporal)
 
 Luego con el archivo ya cargado en memoria vamos a analizarlo.
