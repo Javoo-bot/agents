@@ -1,9 +1,9 @@
 # Table of contents
 
-## Guia Tribe
+## Guia 
 
-* [Tribe](README.md)
-  * [🛠️ Docker config](guia-tribe/tribe/docker-config.md)
+* [Agents](README.md)
+  * [🛠️ Docker config](inicio/setting/docker-config.md)
 
 ## VS Code
 
@@ -18,9 +18,9 @@
 
 ***
 
-* [Skills](skills/README.md)
-  * [Mercurio](skills/mercurio.md)
-  * [Hermes](skills/hermes.md)
-  * [🤑 Hades](skills/hades.md)
-  * [Erebos](skills/erebos.md)
-  * [🐶 Pluto(n)](skills/pluto-n.md)
+* [ciber_agentes](ciber_agentes/README.md)
+  * [Mercurio](ciber_agentes/mercurio.md)
+  * [Hermes](ciber_agentes/hermes.md)
+  * [🤑 Hades](ciber_agentes/hades.md)
+  * [Erebos](ciber_agentes/erebos.md)
+  * [🐶 Pluto(n)](ciber_agentes/pluto-n.md)
