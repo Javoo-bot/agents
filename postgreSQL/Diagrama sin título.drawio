@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uWUnNED6HEl2aK5fdaIb-7" value="Hotfix Commit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+        <mxCell id="uWUnNED6HEl2aK5fdaIb-7" value="consulta clásica" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="427.25" y="226" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uWUnNED6HEl2aK5fdaIb-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;plain-blue;endArrow=none;endFill=0;strokeWidth=4;strokeColor=#E07A5F;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;fillColor=#F2CC8F;" parent="1" source="uWUnNED6HEl2aK5fdaIb-10" target="9hBKPDzoitwpIBdzFDQ7-16" edge="1">
@@ -58,8 +58,8 @@
         <mxCell id="uWUnNED6HEl2aK5fdaIb-19" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;plain-purple;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="549.75" y="281" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uWUnNED6HEl2aK5fdaIb-20" value="1.1.0-release" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=1;fontFamily=Courier New;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="88.75" y="286" width="240" height="20" as="geometry" />
+        <mxCell id="uWUnNED6HEl2aK5fdaIb-20" value="Base datos está&amp;nbsp;&lt;div&gt;en Docker&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=1;fontFamily=Courier New;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="120" y="281" width="92.25" height="59" as="geometry" />
         </mxCell>
         <mxCell id="uWUnNED6HEl2aK5fdaIb-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=4;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" source="uWUnNED6HEl2aK5fdaIb-69" target="uWUnNED6HEl2aK5fdaIb-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -91,34 +91,19 @@
         <mxCell id="uWUnNED6HEl2aK5fdaIb-95" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;plain-purple;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="696.75" y="361" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uWUnNED6HEl2aK5fdaIb-76" value="develop" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=1;fontFamily=Courier New;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="87.75" y="364" width="91" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="uWUnNED6HEl2aK5fdaIb-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=4;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" source="uWUnNED6HEl2aK5fdaIb-82" target="uWUnNED6HEl2aK5fdaIb-84" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="uWUnNED6HEl2aK5fdaIb-76" value="Connection Testing&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=1;fontFamily=Courier New;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="133" y="341" width="95" height="70" as="geometry" />
         </mxCell>
         <mxCell id="uWUnNED6HEl2aK5fdaIb-82" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;plain-purple;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="500.75" y="440" width="30" height="30" as="geometry" />
+          <mxGeometry x="500.75" y="440" width="29.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uWUnNED6HEl2aK5fdaIb-97" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeWidth=4;fontFamily=Courier New;fontColor=default;labelBackgroundColor=none;strokeColor=#E07A5F;" parent="1" source="uWUnNED6HEl2aK5fdaIb-84" target="uWUnNED6HEl2aK5fdaIb-95" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="uWUnNED6HEl2aK5fdaIb-86" value="Docker: puertos" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=1;fontFamily=Courier New;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="170" y="445" width="182.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="uWUnNED6HEl2aK5fdaIb-84" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;plain-purple;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="611.75" y="440" width="30" height="30" as="geometry" />
+        <mxCell id="uWUnNED6HEl2aK5fdaIb-88" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;exponer puerto&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=0;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="462.62" y="480" width="134.25" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="uWUnNED6HEl2aK5fdaIb-86" value="JIRA-35--example feature" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=1;fontFamily=Courier New;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="87.5" y="445" width="240" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="uWUnNED6HEl2aK5fdaIb-87" value="The development or sprint branch" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=0;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="85.75" y="384" width="240" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="uWUnNED6HEl2aK5fdaIb-88" value="Your feature branch" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=0;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="85.75" y="465" width="240" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="uWUnNED6HEl2aK5fdaIb-89" value="The release branch" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=0;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="86.75" y="306" width="240" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="uWUnNED6HEl2aK5fdaIb-90" value="The main branch&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=0;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="uWUnNED6HEl2aK5fdaIb-90" value="&lt;font face=&quot;Lucida Console&quot;&gt;The main branch&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=0;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="88.25" y="220" width="146.75" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uWUnNED6HEl2aK5fdaIb-91" value="" style="endArrow=classic;html=1;strokeWidth=1;fontFamily=Courier New;fontColor=default;labelBackgroundColor=none;strokeColor=#E07A5F;" parent="1" edge="1">
@@ -129,7 +114,7 @@
         </mxCell>
         <mxCell id="uWUnNED6HEl2aK5fdaIb-92" value="" style="endArrow=classic;html=1;strokeWidth=1;fontFamily=Courier New;fontColor=default;labelBackgroundColor=none;strokeColor=#E07A5F;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="186.75" y="374" as="sourcePoint" />
+            <mxPoint x="230" y="374" as="sourcePoint" />
             <mxPoint x="376.75" y="374" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -139,8 +124,17 @@
             <mxPoint x="296.75" y="296" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uWUnNED6HEl2aK5fdaIb-101" value="Guardar tabla" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="590.25" y="170" width="110" height="20" as="geometry" />
+        <mxCell id="CVed8mVqtrHm78gDxmbE-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="uWUnNED6HEl2aK5fdaIb-101" target="uWUnNED6HEl2aK5fdaIb-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uWUnNED6HEl2aK5fdaIb-101" value="&lt;font face=&quot;Lucida Console&quot;&gt;Guardar tabla&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="600" y="170" width="119.75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CVed8mVqtrHm78gDxmbE-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="uWUnNED6HEl2aK5fdaIb-103" target="9hBKPDzoitwpIBdzFDQ7-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uWUnNED6HEl2aK5fdaIb-103" value="&lt;font face=&quot;Lucida Console&quot;&gt;Conexión SQL&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="222" y="170" width="117.75" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uWUnNED6HEl2aK5fdaIb-107" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=4;fontFamily=Courier New;fontColor=default;labelBackgroundColor=none;strokeColor=#E07A5F;" parent="1" source="uWUnNED6HEl2aK5fdaIb-104" target="uWUnNED6HEl2aK5fdaIb-106" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -154,8 +148,8 @@
         <mxCell id="uWUnNED6HEl2aK5fdaIb-106" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;plain-purple;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="786.75" y="281" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uWUnNED6HEl2aK5fdaIb-116" value="Migrar a PostgreSQL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="812.25" y="168" width="187.75" height="20" as="geometry" />
+        <mxCell id="uWUnNED6HEl2aK5fdaIb-116" value="&lt;font face=&quot;Lucida Console&quot;&gt;Migrar a PostgreSQL&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="816.75" y="170" width="187.75" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uWUnNED6HEl2aK5fdaIb-117" value="" style="endArrow=classic;html=1;strokeWidth=1;fontFamily=Courier New;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;" parent="1" source="fSnZ5vnYTslC5NarKmr_-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -169,11 +163,11 @@
             <mxPoint x="801.75" y="325" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fSnZ5vnYTslC5NarKmr_-4" value="&lt;span style=&quot;text-align: center&quot;&gt;Feel free to add notes here about the process of merging into the release branch.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;fontStyle=0;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="fSnZ5vnYTslC5NarKmr_-4" value="&lt;span style=&quot;text-align: center&quot;&gt;Creación commit creación cambios en bd en alembic&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;fontStyle=0;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="776.75" y="375" width="163.25" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="fSnZ5vnYTslC5NarKmr_-5" value="&lt;div style=&quot;&quot;&gt;&lt;span&gt;Feel free to add notes here about the process of merging feature branches.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;fontStyle=0;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="502.63" y="485" width="418.25" height="36" as="geometry" />
+        <mxCell id="fSnZ5vnYTslC5NarKmr_-5" value="&lt;div style=&quot;&quot;&gt;Aquí puedo:&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;Conectarme desde la consola a base de datos&amp;nbsp;&lt;/li&gt;&lt;li&gt;Ver visualmente base de datos sin t&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;fontStyle=0;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="565.38" y="510" width="292.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="fSnZ5vnYTslC5NarKmr_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;" parent="1" source="fSnZ5vnYTslC5NarKmr_-8" target="uWUnNED6HEl2aK5fdaIb-103" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -184,22 +178,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fSnZ5vnYTslC5NarKmr_-8" value="&lt;span style=&quot;text-align: center;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Inicio&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=11;fontStyle=0;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="101.63" y="158" width="120" height="38" as="geometry" />
+        <mxCell id="fSnZ5vnYTslC5NarKmr_-8" value="&lt;h1&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Inicio&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=11;fontStyle=0;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="88.75" y="150" width="120" height="38" as="geometry" />
         </mxCell>
-        <UserObject label="Example diagram for a workflow similar to &quot;Git-flow&quot; :" link="https://nvie.com/posts/a-successful-git-branching-model/" id="9hBKPDzoitwpIBdzFDQ7-2">
+        <UserObject label="&lt;h1&gt;DataConnect Pro&lt;/h1&gt;" link="https://nvie.com/posts/a-successful-git-branching-model/" id="9hBKPDzoitwpIBdzFDQ7-2">
           <mxCell style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-            <mxGeometry x="82.25" y="90" width="427.75" height="20" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;a href=&quot;https://nvie.com/posts/a-successful-git-branching-model/&quot;&gt;https://nvie.com/posts/a-successful-git-branching-model/&lt;/a&gt;" link="https://nvie.com/posts/a-successful-git-branching-model/" id="9hBKPDzoitwpIBdzFDQ7-3">
-          <mxCell style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-            <mxGeometry x="115" y="115" width="355" height="20" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="See:" link="https://nvie.com/posts/a-successful-git-branching-model/" id="9hBKPDzoitwpIBdzFDQ7-7">
-          <mxCell style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-            <mxGeometry x="82.25" y="115" width="32.75" height="20" as="geometry" />
+            <mxGeometry x="83" y="60" width="427.75" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="9hBKPDzoitwpIBdzFDQ7-14" value="" style="endArrow=classic;html=1;strokeWidth=1;fontFamily=Courier New;fontColor=default;labelBackgroundColor=none;strokeColor=#E07A5F;" parent="1" edge="1">
@@ -208,7 +192,7 @@
             <mxPoint x="877.25" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9hBKPDzoitwpIBdzFDQ7-15" value="&lt;span style=&quot;text-align: center&quot;&gt;Feel free to add notes here about the process of merging into the release branch.&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;fontStyle=0;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="9hBKPDzoitwpIBdzFDQ7-15" value="&lt;span style=&quot;text-align: center&quot;&gt;Se puede hacer &#39;manual&#39; o haciendo importación&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;fontStyle=0;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="852.25" y="281" width="167.75" height="81" as="geometry" />
         </mxCell>
         <mxCell id="9hBKPDzoitwpIBdzFDQ7-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;endArrow=none;endFill=0;strokeWidth=4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" source="9hBKPDzoitwpIBdzFDQ7-16" target="uWUnNED6HEl2aK5fdaIb-11" edge="1">
@@ -219,14 +203,38 @@
         <mxCell id="9hBKPDzoitwpIBdzFDQ7-16" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;plain-blue;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="468.5" y="196" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9hBKPDzoitwpIBdzFDQ7-61" value="&lt;pre&gt;Creación tablas&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="428.5" y="170" width="111.5" height="20" as="geometry" />
+        <mxCell id="CVed8mVqtrHm78gDxmbE-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="9hBKPDzoitwpIBdzFDQ7-61" target="uWUnNED6HEl2aK5fdaIb-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9hBKPDzoitwpIBdzFDQ7-61" value="&lt;font face=&quot;Lucida Console&quot;&gt;Creación tablas&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="428.5" y="170" width="141.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CVed8mVqtrHm78gDxmbE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=0.85;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="uWUnNED6HEl2aK5fdaIb-101" target="uWUnNED6HEl2aK5fdaIb-101">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uWUnNED6HEl2aK5fdaIb-103" value="&lt;h4&gt;&lt;b&gt;Conexión SQL&lt;/b&gt;&lt;/h4&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="221.63" y="167" width="117.75" height="20" as="geometry" />
+        <mxCell id="CVed8mVqtrHm78gDxmbE-6" value="postgres&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22consulta%20cl%C3%A1sica%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Boverflow%3Dhidden%3BlabelBackgroundColor%3Dnone%3BfontColor%3D%23393C56%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22427.25%22%20y%3D%22226%22%20width%3D%2280%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="422.63" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CVed8mVqtrHm78gDxmbE-7" value="backend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="524.75" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CVed8mVqtrHm78gDxmbE-8" value="migracion" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="670" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CVed8mVqtrHm78gDxmbE-10" value="tablas en sqlite" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="388.5" y="405" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CVed8mVqtrHm78gDxmbE-11" value="container db" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="489.75" y="405" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CVed8mVqtrHm78gDxmbE-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;exitX=1;exitY=0.5;exitPerimeter=0;endArrow=none;endFill=0;jettySize=auto;orthogonalLoop=1;strokeWidth=4;fontSize=15;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uWUnNED6HEl2aK5fdaIb-82" target="uWUnNED6HEl2aK5fdaIb-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="537.25" y="460" as="sourcePoint" />
+            <mxPoint x="610" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVed8mVqtrHm78gDxmbE-17" value="conexión PostgreSQL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="597.25" y="405" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
