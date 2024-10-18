@@ -1,88 +1,74 @@
 # PostgreSQL Documentation
 
-To connect to the database, place your PostgreSQL credentials in the `.env` file.
+To connect to the database, set the PostgreSQL credentials in the `.env` file.
 
-Docker Compose will then use the data from `.env`.
+Then, Docker Compose takes these values from `.env`.
 
-The application uses SQLAlchemy as an ORM to connect to PostgreSQL, meaning there are no direct SQL queries.
+The app uses SQLAlchemy as an ORM to connect to PostgreSQL. This means there are no direct SQL queries.
 
 Database connections are opened and closed with each query because we use `NullPool`.
 
-If there's an automatic disconnection, there's no mechanism to restart the app.
+If there is an automatic disconnection, there is no mechanism to restart the app.
 
-Database models are located in `models.py`.
+The database models are located in `models.py`.
 
-We use Alembic for database migrations. To add or modify models, edit the Alembic folder and generate the necessary migrations.
+We use Alembic for migrations. If you want to add or modify models, you need to edit the Alembic folder.
 
-We need to address slow queries in PostgreSQL, which can be optimized using indexing or pagination techniques.
+You can add new models or modify the existing ones by editing this file and then generating the necessary migrations using Alembic.
+
+It remains to be checked which slow queries exist in PostgreSQL. This can be addressed using techniques like indexing or pagination.
 
 ## General Project Structure
 
-- **Database Connection Configuration (`config`)**
-- **Database Management (`core/db.py`)**
-- **Data Structures and Tables (`models`)**
-- **Data Migration (`alembic`)**
-- **Basic Database Operations: CRUD (`crud.py`)**
-- **Initial Data Setup (`initial_data`)**
+- [x] Database Connection Configuration (`config`)
+- [x] Database Handling (`core/db.py`)
+- [x] Data and Table Structure (`models`)
+- [x] Data Migration (`alembic`)
+- [x] Basic CRUD Operations (`crud.py`)
+- [x] Initial Data Setup (`initial_data`)
 
-### **Config**
+- **Config**
+  - Creation of a local server for development.
+  - Configuration of backend connection to PostgreSQL.
+  - Interaction with PostgreSQL using an ORM (SQLAlchemy) in Python.
+  - Secure storage of keys and credentials using environment variables.
 
-- Set up a local server for development.
-- Configure the backend connection to PostgreSQL.
-- Interact with PostgreSQL using SQLAlchemy in Python.
-- Securely store keys and credentials using environment variables.
+- **Core**
+  - Database is managed using Alembic.
+  - Everything is managed in Alembic.
+  - If Alembic does not work (it can happen), you should:
+    - Define models.
+    - Database connection (URI): `postgresql+psycopg://admin:secret@localhost:5432/mydatabase`.
+    - Verify the existence of tables.
+    - If they do not exist, create tables.
+    - Add data.
+    - Create a backup.
 
-### **Core**
+- **Models**
+  - There are 8 subsections, all with the same structure.
+  - We analyze the structure of `Team`, which is used for team management.
+    - Define basic attributes.
+    - Class to create and then update teams.
+    - `Team` class where one-to-many, many-to-many relationships, and constraints are defined (a fundamental part).
+    - **Configuring relationships is very important**.
+    - Set up the output model when making an API request.
 
-- The database is managed using Alembic.
-- Alembic handles all migrations.
-- If Alembic doesn't work (it can happen), you would need to:
-  - Define models.
-  - Set up the database connection URI:
+- **Alembic**
+  - Migrations are configured in `env`, stored in `version`, and automatically updated in Docker.
+  - Maiko: Migration schema that all `versions` follow.
+  - Starting with `.env`:
+    - Two modes of operation: **offline** and **online**.
+    - We connect to the database with `get_url()`.
+    - If there are metadata changes, Alembic makes migrations automatically.
+    - Use environment variables for connection.
+      - **Offline mode**: Generates SQL scripts without connecting to the database. Useful when the database is not available.
+      - **Online mode**: Performs migrations in real time. Requires SQLAlchemy engine.
 
-    ```python
-    postgresql+psycopg://admin:secret@localhost:5432/mydatabase
-    ```
+- **Crud**
+  - Defines create, read, update, and delete operations that interact with the database.
 
-  - Verify if tables exist.
-  - If not, create the tables.
-  - Add data.
-  - Create a backup.
+- **Initial Data**
+  - Initializes the database and inserts data when the application starts.
 
-### **Models**
 
-- Contains 8 subsections with the same structure.
-- Example: Analyzing the `Team` structure used for team management.
-  - Define basic attributes.
-  - Create classes for creating and updating teams.
-  - Define the `Team` class with one-to-many and many-to-many relationships and constraints.
-    - **Configuring relationships is crucial.**
-  - Set up the output model for API requests.
 
-### **Alembic**
-
-- In `env.py`, configure migrations stored in the `versions` folder, which are automatically updated in Docker.
-- Migrations follow a consistent schema across all `versions`.
-- Starting with `.env`:
-  - Two operation modes: **offline** and **online**.
-  - Connect to the database using `get_url()`.
-  - Alembic automatically creates migrations if there are metadata changes.
-  - Use environment variables for the connection.
-    - **Offline mode**: Generates SQL scripts without connecting to the database. Useful when the DB isn't available.
-    - **Online mode**: Performs real-time migrations. Requires the SQLAlchemy engine.
-
-### **CRUD**
-
-- Defines create, read, update, and delete operations interacting with the database.
-
-### **Initial Data**
-
-- Initializes the database and inserts data when the application starts.
-
-## Steps to Create a New Table (Extending LLM Memory, Specific Knowledge, Context)
-
-1. **Create a New Model in `models.py`**: Define new attributes, relationships, and constraints.
-2. **Generate a New Migration with Alembic**.
-3. **Review the Generated Migration File**.
-4. **Apply the Migration to the Database**: Done via Docker.
-5. **Verify the Creation of the New Table in PostgreSQL**.
