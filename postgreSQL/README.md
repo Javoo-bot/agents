@@ -69,6 +69,3 @@ It remains to be checked which slow queries exist in PostgreSQL. This can be add
 
 - **Initial Data**
   - Initializes the database and inserts data when the application starts.
-
-
-

@@ -1,1 +1,13 @@
+# Archivos y directorios comunes a ignorar
+
+# Entornos virtuales
+venv/
+__pycache__/
+*.pyc
+
+# Archivos de configuración
 .env
+.test.ini
+
+# Docker
+*.log
