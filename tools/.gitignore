@@ -5,7 +5,7 @@
 # ==========================
 .DS_Store
 Thumbs.db
-.test.ini
+*.test.ini
 # ==========================
 # IDEs and Text Editors
 # ==========================
