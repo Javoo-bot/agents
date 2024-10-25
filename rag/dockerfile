@@ -1,0 +1,16 @@
+# Dockerfile para el script qdrant.py
+
+# Utiliza una imagen base ligera de Python
+FROM python:3.9-slim
+
+# Define el directorio de trabajo en el contenedor
+WORKDIR /app
+
+# Copia todos los archivos necesarios al contenedor
+COPY . .
+
+# Instala las dependencias necesarias listadas en requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Define el comando por defecto para ejecutar cuando se arranca el contenedor
+CMD ["python", "qdrant.py"]

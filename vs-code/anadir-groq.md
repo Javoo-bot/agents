@@ -14,9 +14,9 @@ frontend\src\components\Members\EditMember.tsx
 
 ```typescript
 const AVAILABLE_MODELS = {
-  openai: ["gpt-4o-mini", 
-           "gpt-4o", 
-           "gpt-4-turbo", 
+  openai: ["gpt-4o-mini",
+           "gpt-4o",
+           "gpt-4-turbo",
            "gpt-3.5-turbo"
            ],
 ```
@@ -25,11 +25,11 @@ const AVAILABLE_MODELS = {
 
 ```typescript
 const AVAILABLE_MODELS = {
-  openai: ["gpt-4o-mini", 
-           "gpt-4o", 
-           "gpt-4-turbo", 
-           "gpt-3.5-turbo", 
-           "llama3-8b-8192" #ESTE ES EL NUEVO!!
+  openai: ["gpt-4o-mini",
+           "gpt-4o",
+           "gpt-4-turbo",
+           "gpt-3.5-turbo",
+           "model_name" #ESTE ES EL NUEVO!!
            ],
 ```
 

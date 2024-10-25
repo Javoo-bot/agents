@@ -1,0 +1,5 @@
+langchain
+pymupdf
+qdrant-client
+transformers
+torch

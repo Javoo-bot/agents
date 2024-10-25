@@ -1,5 +1,5 @@
 # Archivos y directorios comunes a ignorar
-
+.tools/ciber_skills
 # Entornos virtuales
 venv/
 __pycache__/
